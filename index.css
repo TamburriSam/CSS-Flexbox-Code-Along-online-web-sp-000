@@ -25,7 +25,6 @@ main {
   flex-flow:  column  wrap;
   justify-content: center;
   align-items: center;
-  align-content: space-around;;
 }
 
 footer {
@@ -39,4 +38,9 @@ footer {
    width: 100px;
   margin:5px;
   background-color: #FCF2EC;
+}
+
+.setWidth{
+  flex-basis:100px;
+  flex-grow: 1;
 }
